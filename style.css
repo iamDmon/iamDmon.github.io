@@ -1,9 +1,41 @@
 .layout-transparent {
-  background: url('assets/images/transparent.jpg') center / cover;
+    background: url('assets/images/transparent.jpg') center / cover;
+    background-repeat: repeat;
 }
+
 .layout-transparent .mdl-layout__header,
 .layout-transparent .mdl-layout__drawer-button {
-  /* This background is dark, so we set text to white. Use 87% black instead if
+    /* This background is dark, so we set text to white. Use 87% black instead if
      your background is light. */
-  color: white;
+    color: white;
+}
+
+.intro-card-wide.mdl-card {
+    width: 1024px;
+    margin: auto;
+}
+
+.intro-card-wide > .mdl-card__title {
+    color: #fff;
+    background: url('https://getmdl.io/assets/demos/welcome_card.jpg') center / cover;
+    height: 320;
+}
+
+.intro-card-wide > .mdl-card__menu {
+    color: #fff;
+}
+.post-card-wide.mdl-card {
+    width: 1024px;
+    margin: auto;
+    
+}
+
+.post-card-wide > .mdl-card__title {
+    color: #fff;
+    background: url('https://getmdl.io/assets/demos/welcome_card.jpg') center / cover;
+    height: 320;
+}
+
+.post-card-wide > .mdl-card__menu {
+    color: #fff;
 }

@@ -7,3 +7,16 @@
      your background is light. */
   color: white;
 }
+.mdl-card__supporting-text{
+    height: 4096px;
+}
+.mdl-card__supporting-text:before, .mdl-card__supporting-text:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+
+.mdl-card__supporting-text:after {
+    clear: both;
+}
