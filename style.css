@@ -1,5 +1,5 @@
-.layout-transparent {
-    background: url('assets/images/transparent.jpg') center / cover;
+body {
+    background: url('assets/images/congruent_outline.png') center;
     background-repeat: repeat;
 }
 
